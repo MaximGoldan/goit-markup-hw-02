@@ -191,7 +191,7 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 /* portfolio */
-.button {
+.list-nav__btn {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -200,12 +200,12 @@ letter-spacing: 0.03em;
 background-color:  #F5F4FA;
 color: #212121;
 }
-.button:hover,
-.button:focus {
+.list-nav__btn:hover, 
+.list-nav__btn:focus {
 background-color:  #2196F3;
 color: #ffffff;
 }
-
+/* портфолио */
 .portfolio {
 }
 .portfolio-list {
