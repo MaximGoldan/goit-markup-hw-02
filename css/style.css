@@ -46,8 +46,12 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: #000000;
 }
+
 .span-logo, .logo {
 text-decoration: none;
+}
+.logo:hover {
+  
 }
 /* header ссылки */
 .header-link {
@@ -57,10 +61,11 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 cursor: pointer;
 color: #212121;
+text-decoration: none;
 }
 /* header емеил и тел */
 .header-mail,
-.header-tel {
+.header-tel, {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -77,7 +82,8 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #2196F3;
 }
-.header-mail:hover {
+.header-mail:hover, 
+.header-tel:hover {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -114,6 +120,10 @@ background: #2196f3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 cursor: pointer;
+}
+.hero-but:hover {
+  color: #2196F3;
+  background-color: #FFFFFF;
 }
 
 
@@ -201,6 +211,10 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 text-decoration: none;
 }
+.adres-text:hover {
+  color: #2196F3;
+}
+
 /* portfolio */
 .list-nav__btn {
 font-weight: 500;
@@ -218,13 +232,6 @@ background-color:  #2196F3;
 color: #ffffff;
 }
 /* портфолио */
-.portfolio {
-}
-.portfolio-list {
-}
-
-.portfolio-item {
-}
 .portfolio-title {
 font-weight: 700;
 font-size: 18px;
